@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 28, 29)
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 100px 0 100px;
+}
+
+.card_img{
+    width: 200px;
+    height: 300px;
+}
+
+.card{
+    margin:20px;
+    display: inline-block;
+}
+
+.card_title{
+    color: aliceblue;
+}

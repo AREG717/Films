@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(53, 48, 48);
+    width: 100%;
+}
+
+.menu_list{
+    margin: 10px 0 0 0 ;
+}
+
+.menu_link{
+    text-decoration: none;
+    background-color: rgb(53, 48, 48);
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+    color: aliceblue;
+    border-bottom: 5px solid rgb(53, 48, 48);
+}
+
+.menu_link:hover{
+    transition: 0.5s;
+    background-color: rgb(88, 81, 81);
+    border-bottom: 5px solid rgb(33, 121, 15);
+}
+
+.menu_logo{
+    width: 100px;
+    height: 100px;
+    color: rgba(0, 0, 0, 0);
+}
